@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+graph TD;
     subgraph Browser[Браузер пользователя]
         A[Пользователь] -->|1. Активирует| B[Chrome Extension]
         B -->|2. Запрашивает код| C[Bitrix Integration App]
