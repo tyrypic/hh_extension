@@ -1,1 +1,32 @@
-[![Mermaid Diagram](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbiAgICBzdWJncmFwaCBCcm93c2VyW-CfkJLgq4Lgrr_gq4DgsoDgup_gkZJd55yL44CQ0JHQktCQ0JPQnyBdXG4gICAgICAgIEFb0J_Rg9C70L7QstC+0LJdIC0tPnwuMS4g0JDQutGC0LjQstC40YDRg9GJ0L7QsiB8IEJbQ2hyb21lIEV4dGVuc2lvbl1cbiAgICAgICAgQiAtLT58Mi4g0JfQsNGC0LXQvCAv0LrQvtC0INC60L7RgNC30LjQvdGLIHwgQ1tCaXRyaXggSW50ZWdyYXRpb24gQXBwXVxuICAgICAgICBDIC0tPnwzLiDQk9C70LDQstC90L7QtSDQutC+0YDQt9C40L3RiyB8IEJcbiAgICAgICAgQiAtLT58NC4g0JjQvdC20LXQvdC10YAg0LrRg9C60LggfCBEW9CS0KHQmSDQstCw0LvQtdC90YHQutCwXVxuICAgICAgICBEIC0tPnw1LiDQntGC0LzQtdC90LjRgtGMINC60L7RgNC30LjQvdCwIHwgQlxuICAgIGVuZFxuXG4gICAgc3ViZ3JhcGggQmFja2VuZFvQkdC10LvQtdC00L7QvdCwINC/0YDQvtC10LrRgiBdXG4gICAgICAgIEIgLS0-fDYuINCe0YLQv9GA0LDQstC40YLRjCDRgNCw0LfQvdGL0LUgKyDQutC+0YDQt9C40L3RiyB8IEVb0KHQtdGA0LLQuNGB0YHQutC+0Lwg0LDQstGC0L7QvNCw0YLQuNGH0LXRgdC60L7Qs9C+XVxuICAgICAgICBFIC0tPnw3LiDQn9GA0L7RhNC40LvRjCB8IEZbKFBvc3RncmVTUUwpXVxuICAgICAgICBFIC0tPnw4LiDRgdC+0LHRi9GC0LjQtSDQv9C+0LTRgtCy0LXRgNC20LTQtdC9IHwgR1tCaXRyaXgyNCBBUEldXG4gICAgICAgIEcgLS0-fDkuINCS0LXRgNGB0LjRjyDRgNC10LbQuNCy0LAgfCBFXG4gICAgICAgIEUgLS0-fDEwLiDQntGB0L3QvtCy0L3QvtC1IHwgQlxuICAgIGVuZCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9?type=png)](https://mermaid.live/edit#eyJjb2RlIjoiZ3JhcGggVERcbiAgICBzdWJncmFwaCBCcm93c2VyW-CfkJLgq4Lgrr_gq4DgsoDgup_gkZJd55yL44CQ0JHQktCQ0JPQnyBdXG4gICAgICAgIEFb0J_Rg9C70L7QstC+0LJdIC0tPnwuMS4g0JDQutGC0LjQstC40YDRg9GJ0L7QsiB8IEJbQ2hyb21lIEV4dGVuc2lvbl1cbiAgICAgICAgQiAtLT58Mi4g0JfQsNGC0LXQvCAv0LrQvtC0INC60L7RgNC30LjQvdGLIHwgQ1tCaXRyaXggSW50ZWdyYXRpb24gQXBwXVxuICAgICAgICBDIC0tPnwzLiDQk9C70LDQstC90L7QtSDQutC+0YDQt9C40L3RiyB8IEJcbiAgICAgICAgQiAtLT58NC4g0JjQvdC20LXQvdC10YAg0LrRg9C60LggfCBEW9CS0KHQmSDQstCw0LvQtdC90YHQutCwXVxuICAgICAgICBEIC0tPnw1LiDQntGC0LzQtdC90LjRgtGMINC60L7RgNC30LjQvdCwIHwgQlxuICAgIGVuZFxuXG4gICAgc3ViZ3JhcGggQmFja2VuZFvQkdC10LvQtdC00L7QvdCwINC/0YDQvtC10LrRgiBdXG4gICAgICAgIEIgLS0-fDYuINCe0YLQv9GA0LDQstC40YLRjCDRgNCw0LfQvdGL0LUgKyDQutC+0YDQt9C40L3RiyB8IEVb0KHQtdGA0LLQuNGB0YHQutC+0Lwg0LDQstGC0L7QvNCw0YLQuNGH0LXRgdC60L7Qs9C+XVxuICAgICAgICBFIC0tPnw3LiDQn9GA0L7RhNC40LvRjCB8IEZbKFBvc3RncmVTUUwpXVxuICAgICAgICBFIC0tPnw4LiDRgdC+0LHRi9GC0LjQtSDQv9C+0LTRgtCy0LXRgNC20LTQtdC9IHwgR1tCaXRyaXgyNCBBUEldXG4gICAgICAgIEcgLS0-fDkuINCS0LXRgNGB0LjRjyDRgNC10LbQuNCy0LAgfCBFXG4gICAgICAgIEUgLS0-fDEwLiDQntGB0L3QvtCy0L3QvtC1IHwgQlxuICAgIGVuZCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
+```diff
++------------------+       +---------------------+
+|   Chrome         |       |   Bitrix Integration|
+|   Extension      |       |   App               |
+|                  |       |                     |
+|  +------------+  |       |  +---------------+  |
+|  |   Auth     |◄-code----►|  | Code Generator|  |
+|  |  Manager   |  |       |  +---------------+  |
+|  +-----┬------+  |       |                     |
+|        │         |       |                     |
++--------┼---------+       +---------------------+
+         │
+         ▼
++------------------+
+|   HH.ru Tab      |
+|                  |
+|  +------------+  |
+|  | Resume Page|  |
+|  |  [IMPORT]◄─┼──cookie sync──┐
+|  +------------+  |            │
++------------------+            │
+                                ▼
++------------------+       +---------------------+
+|   Backend        |       |   Bitrix24          |
+|   Service        |       |                     |
+|                  |       |                     |
+|  +------------+  |       |  +---------------+  |
+|  | API        |───resume+code──► Create Deal|  |
+|  | Endpoint   |◄───────────────┤             |  |
+|  +------------+  |       |  +---------------+  |
++------------------+       +---------------------+
+```
