@@ -1,4 +1,4 @@
-# 🔄 Импорт резюме в Битрикс24: Расширение для Chrome  
+# 📥 Импорт резюме в Битрикс24: Расширение для Chrome  
 **Упрощение рекрутинга для HR-команд | 300+ установок**  
 [![Chrome Extension](https://img.shields.io/badge/Chrome_Web_Store-4.5/5⭐-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/%D0%B8%D0%BC%D0%BF%D0%BE%D1%80%D1%82-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5/mjepbnolegdpfonnhhjjjgffiidibbkc?pli=1)
 
