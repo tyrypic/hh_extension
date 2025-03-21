@@ -21,19 +21,19 @@
   При нажатии на кнопку расширение отправляет запрос на серверный эндпоинт, передавая данные резюме и код авторизации. Сервер, исходя из кода, обращается к базе данных, определяет, к какому порталу Bitrix24 принадлежит пользователь, и создает в этом портале сделку с данными кандидата.
 
 ### Схема архитектуры  
-```mermaid
-graph TD;
-    User[Пользователь] -->|1. Получает код активации| BitrixApp[Bitrix Integration App];
-    User -->|2. Активирует расширение кодом| Extension[Chrome Extension];
-    Extension -->|3. Проверяет код| AuthService[Сервис авторизации];
-    AuthService -->|4. Запрашивает привязку| PostgreSQL[PostgreSQL];
-    PostgreSQL -->|5. Возвращает привязку к порталу| AuthService;
-    AuthService -->|6. Подтверждает авторизацию| Extension;
-    Extension -->|7. Инжектит куки через chrome.tabs| HHru[HH.ru];
-    Extension -->|8. Отслеживает вкладки через chrome.webNavigation| HHru;
-    Extension -->|9. Показывает кнопку при открытии резюме| HHru;
-    User -->|10. Нажимает кнопку импорта| Extension;
-    Extension -->|11. Отправляет данные резюме| Server[Серверный эндпоинт];
-    Server -->|12. Создает сделку| BitrixAPI[Bitrix24 API];
-    BitrixAPI -->|13. Сохраняет данные| Bitrix24[Bitrix24];
+```bash
+[Пользователь]
+   │
+   ▼
+[Chrome Extension]◄──Код активации──►[Bitrix Integration App]
+   │  ▲
+   │  └──chrome.tabs API──►[Куки HH.ru]
+   │
+   ▼
+[Сервис авторизации]──┐
+   │                  │
+   ▼                  ▼
+[PostgreSQL]      [Bitrix24 API]
+   │  ▲                  │
+   └──┼─────────Данные резюме────►[Сделка в Bitrix]
 ```
