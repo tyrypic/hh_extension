@@ -69,3 +69,41 @@
 ### Что я вынес
 
 Научился создавать расширения, работать с API и управлять проектом от начала до конца, укрепив свои навыки разработчика.
+
+## 💻 Технологический стек
+
+### Фронтенд (расширение для Chrome)
+- **JavaScript**  
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
+  Основной язык для логики расширения, парсинга данных с HH.ru и взаимодействия с сервером.
+- **HTML & CSS**  
+  ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)  
+  ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)  
+  Используются для создания интерфейса расширения, включая кнопку "Импорт в Битрикс24".
+- **Chrome Extensions API**  
+  ![Chrome Extensions API](https://img.shields.io/badge/Chrome_Extensions_API-4285F4?logo=googlechrome&logoColor=white)  
+  API для управления вкладками и отслеживания навигации.
+
+### Бэкенд
+- **Python**  
+  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)  
+  Язык для серверной логики и интеграции с Bitrix24 API.
+- **Flask**  
+  ![Flask](https://img.shields.io/badge/Flask-%23000000?logo=flask&logoColor=white)  
+  Фреймворк для создания RESTful API и обработки запросов.
+
+### Базы данных
+- **PostgreSQL**  
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)  
+  Хранит данные авторизации и привязки к порталам Bitrix24.
+
+### Инструменты и платформы
+- **Chrome Web Store**  
+  ![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white)  
+  Платформа для публикации расширения.
+- **Bitrix24 API**  
+  ![Bitrix24 API](https://img.shields.io/badge/Bitrix24_API-00A2FF?logo=bitrix&logoColor=white)  
+  Интеграция с CRM для создания сделок.
+- **GitHub**  
+  ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)  
+  Управление версиями кода.
