@@ -89,3 +89,7 @@
 ![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white)
 ![Bitrix24 API](https://img.shields.io/badge/Bitrix24_API-00A2FF?logo=bitrix&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+
+## 🔗 Полезные ссылки
+- [Расширение в Chrome Web Store]([https://www.bitrix24.ru/apps/app/21ek.integratsiya_s_hh_ru/](https://chromewebstore.google.com/detail/%D0%B8%D0%BC%D0%BF%D0%BE%D1%80%D1%82-%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5/mjepbnolegdpfonnhhjjjgffiidibbkc?pli=1))
+- [Документация, скриншоты и примеры использования](https://docs.headtrix.21vek.it/)
