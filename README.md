@@ -73,19 +73,19 @@
 ## 💻 Технологический стек
 
 **Языки & Фреймворки:**  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
-![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)  
-![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)  
-![Flask](https://img.shields.io/badge/Flask-%23000000?logo=flask&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-%23000000?logo=flask&logoColor=white)
 
 **Базы данных:**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 
 **Инфраструктура:**  
-![Chrome Extensions API](https://img.shields.io/badge/Chrome_Extensions_API-4285F4?logo=googlechrome&logoColor=white)  
+![Chrome Extensions API](https://img.shields.io/badge/Chrome_Extensions_API-4285F4?logo=googlechrome&logoColor=white)
 
 **Инструменты:**  
-![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white)  
-![Bitrix24 API](https://img.shields.io/badge/Bitrix24_API-00A2FF?logo=bitrix&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)  
+![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white)
+![Bitrix24 API](https://img.shields.io/badge/Bitrix24_API-00A2FF?logo=bitrix&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
