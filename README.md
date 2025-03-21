@@ -23,12 +23,17 @@
 ### Схема архитектуры  
 ```mermaid
 graph TD;
-    User[Пользователь] -->|1. Активирует расширение кодом| Extension[Chrome Extension];
-    Extension -->|2. Авторизуется через куки с chrome.tabs| HHru[HH.ru];
-    Extension -->|3. Встраивает кнопку на страницу| HHru;
-    User -->|4. Нажимает кнопку импорта| Extension;
-    Extension -->|5. Отправляет резюме и код| Server[Серверный эндпоинт];
-    Server -->|6. Проверяет код в базе| PostgreSQL[PostgreSQL];
-    Server -->|7. Создает сделку| BitrixAPI[Bitrix24 API];
-    BitrixAPI -->|8. Сохраняет данные| Bitrix24[Bitrix24];
+    User[Пользователь] -->|1. Получает код активации| BitrixApp[Bitrix Integration App];
+    User -->|2. Активирует расширение кодом| Extension[Chrome Extension];
+    Extension -->|3. Проверяет код| AuthService[Сервис авторизации];
+    AuthService -->|4. Запрашивает привязку| PostgreSQL[PostgreSQL];
+    PostgreSQL -->|5. Возвращает привязку к порталу| AuthService;
+    AuthService -->|6. Подтверждает авторизацию| Extension;
+    Extension -->|7. Инжектит куки через chrome.tabs| HHru[HH.ru];
+    Extension -->|8. Отслеживает вкладки через chrome.webNavigation| HHru;
+    Extension -->|9. Показывает кнопку при открытии резюме| HHru;
+    User -->|10. Нажимает кнопку импорта| Extension;
+    Extension -->|11. Отправляет данные резюме| Server[Серверный эндпоинт];
+    Server -->|12. Создает сделку| BitrixAPI[Bitrix24 API];
+    BitrixAPI -->|13. Сохраняет данные| Bitrix24[Bitrix24];
 ```
